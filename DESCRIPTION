@@ -9,7 +9,7 @@ Description: 'USOSstats' is a package made to analuze data from USOS.
   It takes students grades from different courses from different years,
   as well as results of surveys about students satisfaction with lecturers and
   courses. Data is shown on plots, in easy readble way.
-Depends: R (>= 3.3.0)
+Depends: R (>= 3.2.3)
 License: Apache Licence
 Encoding: UTF-8
 LazyData: true
