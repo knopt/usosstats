@@ -1,3 +1,5 @@
+data(ankiety)
+data(oceny)
 #' The only one function of package
 #' 
 #' Runs Shiny app.
