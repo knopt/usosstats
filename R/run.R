@@ -1,11 +1,11 @@
-data(ankiety)
-data(oceny)
 #' The only one function of package
 #' 
 #' Runs Shiny app.
 #'
 #' @export
 run <- function() {
+  data(ankiety)
+  data(oceny)
   
   appDir <- system.file("shiny", "usosstats", package = "usosstats")
   if (appDir == "") {
