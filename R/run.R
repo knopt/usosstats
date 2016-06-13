@@ -4,8 +4,8 @@
 #'
 #' @export
 run <- function() {
-  data(ankiety)
-  data(oceny)
+  data(ankiety, package="usosstats")
+  data(oceny, package="usosstats")
   
   appDir <- system.file("shiny", "usosstats", package = "usosstats")
   if (appDir == "") {
